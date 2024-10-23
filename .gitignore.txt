@@ -1,0 +1,17 @@
+# Ignorar archivos temporales de Windows
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# Ignorar carpetas específicas del sistema
+AppData/
+node_modules/
+temp/
+cache/
+*.class
+*.swp
+
+# Ignorar datos de aplicaciones
+ScreamingFrogSEOSpider/

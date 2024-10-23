@@ -1,0 +1,74 @@
+/* Estilos para el formulario */
+#formularioEstimaciones {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#formularioEstimaciones label {
+    font-weight: bold;
+    color: #333;
+}
+
+#formularioEstimaciones input[type="text"],
+#formularioEstimaciones input[type="number"],
+#formularioEstimaciones input[type="email"],
+#formularioEstimaciones select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+#formularioEstimaciones input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#formularioEstimaciones input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para las respuestas */
+#respuesta {
+    background-color: #e7f3ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    text-align: center;
+}
+
+#respuesta p {
+    color: #333;
+    font-weight: bold;
+}
+
+#respuesta p strong {
+    color: #1d72b8;
+    font-size: 20px;
+}
+
+/* Resaltado de porcentaje de posibilidades */
+#respuesta p span {
+    background-color: #1d72b8;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
